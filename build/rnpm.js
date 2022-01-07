@@ -1209,8 +1209,8 @@
     };
   }
 
-  var OPEN_ANIM_DURATION = 225;
-  var CLOSE_ANIM_DURATION = 195;
+  var OPEN_ANIM_DURATION = 0;
+  var CLOSE_ANIM_DURATION = 0;
   var USE_NATIVE_DRIVER = reactNative.Platform.OS !== "web";
 
   var Backdrop =
